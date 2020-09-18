@@ -1,6 +1,6 @@
 # yolov4_mask_detection
 <h1>you need to install darknet before trying out this program on your system.</h1>
-This is project on mask detection, done by me and my teammate Balaji Dass for a mlh hackathon,Successfully  trained yolo model with custom datasets gathred from google and kaggle.
+This is project on mask detection, done by me and my teammate Balaji D for a mlh hackathon,Successfully  trained yolo model with custom datasets gathred from google and kaggle.
  as there are two classes we changed the following parameters in yolo config file:
 ○ First, we changed the variable max_batches=2000 x no_of_classes , in our case max_batches=4000.
 ○ The steps variable will be equal to 80-90% of max_batches , in our case steps=3200,3600.
